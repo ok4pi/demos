@@ -27,7 +27,7 @@ var draw = function(timer)
 
 shader_set(sh_sky);
 shader_set_uniform_f(global.u_sh_sky_time, timer * 0.1);
-texture_set_stage(1, sprite_get_texture(spr_eden, 0));
+texture_set_stage(1, sprite_get_texture(spr_perlin, 0));
 
 gpu_set_zwriteenable(false);
 gpu_set_cullmode(cull_clockwise);
