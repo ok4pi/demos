@@ -1,7 +1,7 @@
 gpu_set_blendmode_ext(bm_one, bm_dest_alpha);
 	// shader_set(sh_bl_draw);
 	// 	shader_set_uniform_f(global.__bl_uniform_sh_bl_draw_color, color_get_red(argument8) / 255, color_get_green(argument8) / 255, color_get_blue(argument8) / 255, 1);
-		draw_surface_stretched_ext(global.bloom_surface, 0, 0, view_wport, view_hport, merge_color(c_white, c_black, 0.2), 1.0);
+		draw_surface_stretched_ext(global.bloom_surface, 0, 0, view_get_wport(0), view_get_hport(0), merge_color(c_white, c_black, 0.2), 1.0);
 	// shader_reset();
 gpu_set_blendmode(bm_normal);
 

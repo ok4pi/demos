@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_eden","order":3,"path":"sprites/spr_eden/spr_eden.yy",},
+    {"name":"spr_noise","order":1,"path":"sprites/spr_noise/spr_noise.yy",},
+    {"name":"spr_perlin","order":2,"path":"sprites/spr_perlin/spr_perlin.yy",},
+    {"name":"sh_blur_y","order":3,"path":"shaders/sh_blur_y/sh_blur_y.yy",},
+    {"name":"sh_lines","order":1,"path":"shaders/sh_lines/sh_lines.yy",},
+    {"name":"sh_sky","order":4,"path":"shaders/sh_sky/sh_sky.yy",},
+    {"name":"sh_blur_x","order":2,"path":"shaders/sh_blur_x/sh_blur_x.yy",},
+  ],
+}

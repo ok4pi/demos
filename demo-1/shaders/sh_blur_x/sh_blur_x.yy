@@ -1,11 +1,10 @@
 {
-  "type": 3,
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "sh_blur_x",
   "parent": {
     "name": "Shaders",
     "path": "folders/Shaders.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sh_blur_x",
-  "tags": [],
-  "resourceType": "GMShader",
+  "type": 3,
 }
