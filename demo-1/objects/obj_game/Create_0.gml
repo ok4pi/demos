@@ -4,7 +4,8 @@
 // gml_release_mode(true);
 
 // Unlock Framerate
-game_set_speed(0.0, gamespeed_fps);
+display_set_timing_method(tm_systemtiming);
+window_enable_borderless_fullscreen(true);
 
 #endregion
 
